@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.4" />
+    <PackageReference Include="FluentValidation" Version="11.7.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OnlineLibary.Modules.Catalog.Application\OnlineLibary.Modules.Catalog.Application.csproj" />
+    <ProjectReference Include="..\OnlineLibrary.Modules.Administration.Application\OnlineLibrary.Modules.Administration.Application.csproj" />
+  </ItemGroup>
+
+</Project>

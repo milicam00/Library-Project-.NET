@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.4" />
+    <PackageReference Include="FluentValidation" Version="11.7.1" />
+    <PackageReference Include="MediatR" Version="12.0.1" />
+    <PackageReference Include="Serilog" Version="2.12.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OnlineLibrary.BuildingBlocks.Application\OnlineLibrary.BuildingBlocks.Application.csproj" />
+    <ProjectReference Include="..\OnlineLibrary.BuildingBlocks.Infrastructure\OnlineLibrary.BuildingBlocks.Infrastructure.csproj" />
+    <ProjectReference Include="..\OnlineLibrary.Modules.Catalog.Domain\OnlineLibrary.Modules.Catalog.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
